@@ -50,3 +50,21 @@ time, mark, audio, video {
     width: 200px;
     flex: 0;
 }
+
+.logo-container{
+    position: relative;
+    top: 200px;
+    color: white;
+    background: rgb(0 0 0 / 50%);
+    text-align: center;
+}
+
+.logo-text{
+    position: relative;
+    bottom: 50px;
+}
+
+.logo {
+    width: 25%;
+    height: 10%;
+}
