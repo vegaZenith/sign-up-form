@@ -26,11 +26,14 @@ time, mark, audio, video {
 
 .form-container {
     display: flex;
+    align-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
     width: 500px;
 }
 
 .sidebar {
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
     background-image: url("../shared/background.jpg");
     background-size: 30vw 100vh; 
