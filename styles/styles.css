@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("../fonts/Norse-Bold.otf")
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,6 +24,19 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+em {
+    font-style: italic;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -27,9 +45,9 @@ time, mark, audio, video {
 .form-container {
     display: flex;
     align-content: center;
-    padding: 10px;
     flex-wrap: wrap;
-    width: 500px;
+    width: 60vw;
+
 }
 
 .sidebar {
@@ -44,13 +62,16 @@ time, mark, audio, video {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
-
+    padding: 40px;
+    padding-right: 600px;
+    box-shadow: 0px 5px 5px rgb(202, 202, 202);
+    margin-bottom: 10px;
 }
 
 .input-element{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     flex: 0;
 }
 
@@ -65,9 +86,34 @@ time, mark, audio, video {
 .logo-text{
     position: relative;
     bottom: 50px;
+    font-size: 5rem;
+    font-family: "Norse-Bold";
 }
 
 .logo {
     width: 25%;
     height: 10%;
+}
+
+.text-disclaimer {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    padding-top: 225px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 500px;
+    font-weight: 600;
+}
+
+.inputs-header{
+    width: 400px;
+
+}
+
+.submit-form {
+    background-color: #f7f7f7;
+    padding-bottom: 225px;
+    padding-top: 40px;
+    padding-left: 40px;
 }
