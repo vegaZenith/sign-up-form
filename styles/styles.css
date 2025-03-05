@@ -70,7 +70,22 @@ button{
     width: 30vw;
     height: 100vh;
     background-image: url("../shared/background.jpg");
-    background-size: 30vw 100vh; 
+    background-size: 30vw 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.attribution{
+    color: white;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.attribution a {
+    text-decoration: underline;
 }
 
 .inputs {
@@ -120,7 +135,7 @@ button{
 
 .logo {
     width: 25%;
-    height: 10%;
+    height: 90%;
 }
 
 .text-disclaimer {
